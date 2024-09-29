@@ -13,22 +13,33 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
 </head>
 
 <body>
-    <div class="header header-fixed">
+    <div class="header header-fixed u-unselectable header-animated">
         <div class="header-brand">
             <div class="nav-item no-hover">
-                <a href="index.html">
-                    <h6 class="title">Home page</h6>
+                <a>
+                    <h6 class="title">Logo</h6>
                 </a>
             </div>
-            <div class="nav-item nav-btn"
-                style="cursor: pointer; display: block; position: relative; margin-left: auto;">
+            <div class="nav-item">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fab fa-wrapper fa-github"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="nav-item nav-btn" id="header-btn">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
+        </div>
+        <div class="header-nav" style="background-color: #ffdadd;" id="header-menu" role="button">
+            <!-- Other nav categories, controls, nav-items, etc. This is hidden on touch enabled devices -->
         </div>
     </div>
     <section class="section bg-indigo-100">
