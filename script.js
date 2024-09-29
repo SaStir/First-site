@@ -5,7 +5,7 @@ let navBtns = document.querySelectorAll('.nav-btn');
 navBtns.forEach(function (ele) {
     ele.addEventListener('click', function () {
         // Get the dropdown-menu associated with this nav button (insert the id of your menu)
-        let dropDownMenu = document.getElementById('MENU_ID_HERE');
+        let dropDownMenu = document.getElementById('header-menu');
 
         // Toggle the nav-btn and the dropdown menu
         ele.classList.toggle('active');
